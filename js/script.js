@@ -10,5 +10,5 @@ menu.addEventListener('click', () => {
 
 window.onscroll = () => {
     menu.classList.remove('fa-times');
-    navbar.classList.toggle('nav-toggle');
+    navbar.classList.remove('nav-toggle');
 }
